@@ -1,0 +1,89 @@
+body{
+  background-size: cover;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+}
+.centerclass{
+  text-align: center;
+}
+p{
+  font-size: 1.3em;
+}
+h1{
+  background-color: rgba(255, 153, 0, 0.8);
+  color: #fff;
+  padding: 15px;
+  font-size: 2.4em;
+  display: inline-block;
+}
+
+.holder{
+  background-color: rgba(255, 153, 0, 0.5);
+  color: #fff;
+  padding: 0px;
+  text-align: left;
+  display: inline-block;
+}
+#position{
+  padding: 15px 20px;
+  font-size: 2em;
+  font-weight: 500;
+  margin: 0;
+}
+.temp{
+  font-size: 7em;
+  font-weight: 800;
+  padding: 0px 20px;
+  vertical-align: top;
+  margin: 0;
+  display: inline-block;
+}
+a {
+  color: #fff;
+}
+.additional{
+  padding: 0 20px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+.icon{
+  padding: 0 20px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+#weather-icon{
+  font-size: 5em;
+}
+.speed{
+  padding: 0 15px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+#speed-icon{
+  font-size: 5em;
+}
+footer{
+  padding: 1em;
+  text-align: center;
+}
+footer a{
+  text-decoration: none;
+  color:#337ae7;
+}
+footer a:hover{
+  color:#0068d9;
+}

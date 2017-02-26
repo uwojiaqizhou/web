@@ -1,0 +1,41 @@
+<!Doctype html>
+<head>
+  <title>"Current Local Weather App"></title>
+  <meta author="Jiaqi Zhou"></meta>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link href="localweather.css" rel="stylesheet" type="text/css" >
+  <script src="localweather.js"></script>
+  <script src="http://www.geoplugin.net/javascript.gp"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.5/css/weather-icons.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.5/css/weather-icons-wind.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="centerclass">
+      <h1>Current Local Weather</h1>
+    </div>
+    <div class="centerclass">
+      <div class="holder container">
+        <p id="position">london</p>
+        <p class="temp"> <span id="degree">temperature</span><a id="convert" href="#">°C</a></p>
+          <div class="additional">
+            <p id="high">HIGH: <span></span></p>
+            <p id="low">LOW: <span></span></p>
+            <p id="water"><i class="wi wi-humidity"></i><span>water</span></p>
+          </div>
+          <div class="icon">
+            <i id="weather-icon"></i>
+            <p id="weather-description">description</p>
+          </div>
+          <div class="speed">
+            <i id="speed-icon"></i>
+            <p id="speed-description">description</p>
+          </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <a href="https://www.linkedin.com/in/jiaqi-zhou-001b1ab1?trk=hp-identity-name">Jiaqi Zhou</a>
+     &copy 2016. All Rights Reserved.
+  </footer>
+</body>

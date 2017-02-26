@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+body{
+  background:linear-gradient(180deg,lightblue,cyan);
+}
+.container{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  min-height: 800px;
+  background-color: white;
+}
+header>h1{
+  font-size: 6em;
+  font-family: 'Yellowtail', cursive;
+}
+section>div>div>h2{
+  font-size: 2em;
+  font-family: 'Architects Daughter', cursive;
+}
+section>h2{
+  font-size:2em;
+  font-family: 'Architects Daughter', cursive;
+  line-height: 40px;
+}
+.paints{
+  height:170px;
+  width: 122px;
+  align: center;
+  margin-top: 20px;
+  margin-left: -15px;
+}
+
+.paints:hover{
+  height:187px;
+  width: 134px;
+  box-shadow: 10px 10px 3px rgba(0,0,0,0.7);
+  align:center;
+}
+
+.learnmore{
+  font-size:16px;
+  font-family: 'Architects Daughter', cursive;
+  line-height: 30px;
+}
+main > footer {
+	border-top: 1px solid #ccc;
+	margin-top: 80px;
+}

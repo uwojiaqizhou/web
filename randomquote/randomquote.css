@@ -1,0 +1,72 @@
+body{
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.container{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex:1;
+}
+h1{
+  padding: 2em 0;
+  font-weight: 700;
+  font-style: italic;
+}
+#newquote{
+  padding: 0.5em;
+  background-color: #337ab7;
+  color: #fff;
+  border-radius: 5px;
+  margin: 3em 0;
+  border-color: #337ab7;
+  text-decoration: none;
+}
+#newquote:hover{
+  background-color: #2e6da4;
+}
+blockquote{
+  padding: 1em 10px;
+  border-left: 10px solid #ccc;
+  quotes:""" """ "'" "";
+  background-color: #fbfbfb;
+  margin: 1.5em 10px;
+  max-width: 600px;
+}
+blockquote::before{
+  content: open-quote;
+  font-size: 3em;
+  font-weight: 500;
+  color: #ccc;
+  line-height: 0.1em;
+  vertical-align: -0.3em;
+}
+#quote{
+  padding-bottom: 1em;
+}
+#author{
+  padding-top: 1em;
+  padding-right: 0.9em;
+}
+#twitter{
+  padding-left: 0.9em;
+  color:#4099ff;
+}
+#twitter:hover{
+  color:#337ab7;
+}
+.load{
+  padding: 6em 0;
+}
+footer{
+  padding: 1em;
+}
+footer a{
+  text-decoration: none;
+  color:#337ab7;
+}
+footer a:hover{
+  color:#0065d9;
+}

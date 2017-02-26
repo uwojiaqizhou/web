@@ -1,0 +1,27 @@
+<!Doctype HTML>
+<html>
+<head>
+  <title>Wikipedia Viewer</title>
+  <meta author="Jiaqi Zhou"></meta>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" type="text/css">
+  <link href="wikipedia.css" rel="stylesheet" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="wikipedia.js"></script>
+</head>
+<body>
+  <h1>Wikipedia Viewer</h1>
+  <div id="base" class="container-fluid top">
+    <div class="viewerform">
+      <a href="https://en.wikipedia.org/wiki/Special:Random" id="randomarticle" target="_blank">Click here for a Random Article</a>
+      <div id="search">
+        <input type="text" id="searchbox" placeholder="Search Article">
+        <span id="icons"><i class="fa fa-search icon" onclick="wikisearch()"></i></span>
+      </div>
+    </div>
+    <div id="display">
+    </div>
+  </div>
+</body>
+</html>
