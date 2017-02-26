@@ -1,0 +1,71 @@
+.about{
+  background:url("http://alessandrodifrancesco.com/wp-content/themes/ADF-Portfolio/images/background/portfolio.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 750px;
+  padding: 100px;
+}
+body h2{
+  font-size: 3em;
+  color: black;
+}
+
+body p{
+  font-size: 1.2em;
+  color: black;
+}
+.img-circle{
+  height: 250px;
+  border: 5px solid #ccc;
+}
+.portfolio{
+  background:url("http://www.nealfeay.com/content/portfolio/architecture/media/background.jpg") center center fixed no-repeat;
+  background-size: cover;
+  padding: 80px;
+  color: black;
+}
+.portfolioiterm{
+  border: 1px solid white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  right: 0;
+}
+.portfolioiterm:hover{
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.8);
+}
+
+.portfoliolink{
+  display: block;
+  position: relative;
+  text-align: center;
+}
+.portfoliolink-hover{
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 20px;
+  padding: 50px;
+  color: white;
+  opacity: 0;
+}
+.portfoliolink-hover:hover{
+  opacity: 1;
+}
+.portfoliocaption{
+  background-color: rgba(0,0,0,0.70);
+  text-align: center;
+  padding: 5px;
+}
+.contact{
+  background:url("http://www.pptbackgroundstemplates.com/backgrounds/architecture-design-ppt-backgrounds-powerpoint.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 660px;
+  padding: 80px;
+}
+
+footer{
+  background-color: rgba(255, 255, 255, 0.3);
+  text-align: center;;
+  padding: 20px;
+}
